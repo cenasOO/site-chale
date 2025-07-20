@@ -47,4 +47,24 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
-}
+} header h1 {
+  background-image: url('cachoeira.jpg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(15, 12, 12);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 10000px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+
+  /* Borda branca nas letras */
+  -webkit-text-stroke: 1.5px white; /* borda branca */
+  text-stroke: 1.5px white;         /* para navegadores que suportam */
+  }
