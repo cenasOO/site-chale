@@ -8,7 +8,7 @@ body {
 
 header {
   background-color: #1f1919;
-  color: white;
+  color: rgb(240, 234, 234);
   text-align: center;
   padding: 2rem;
 }
@@ -46,14 +46,16 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
-} 
-header h1 {
-  background-image: url('cachoeira.jpg');
+  color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+  header h1 {
+  background-image: url('cachoeira.jpg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: black rgb(15, 12, 12);
+  color: rgb(10, 9, 9);
   padding: 2rem;
   border-radius: 10px;
   width: 100%;
